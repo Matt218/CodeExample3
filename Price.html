@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="homestylesheet.css">
+<style>
+#price,th,td
+{border: 1px dotted hsl(0, 0%, 40%);
+background-color:#ffffff; 
+margin-bottom: 20px;
+margin-left:auto;
+margin-right:auto;
+margin-top: 30px;
+width:80px;
+height: 20px;
+}
+ 
+#membership,th,td{border: 1px dotted hsl(0, 0%, 40%); 
+background-color:#ffffff;
+margin-left:auto;
+margin-right:auto;
+font-family: Arial, Helvetica, sans-serif;
+ }
+
+#events{border: 2px solid hsl(36,100%,57%);
+background-color:white; width:500px; height: 50px;
+font-family: Arial, Helvetica, sans-serif;
+}
+#events{position: relative; left: 400px; top: -170px; margin:auto;}
+
+#competition{border: 2px solid hsl(36,100%,57%);
+border-radius: 5px;
+background-color:rgb(255,255,255); width:500px; height: 50px;	
+font-family: Arial, Helvetica, sans-serif;
+}
+#competition{position: relative; left: 400px; top: -170px; 
+margin:auto;}
+
+
+th{
+font-size:1.2em;
+}
+
+td
+{
+font-size: 100%;
+}
+
+
+/*buttons below for customers */
+	#Quantityform{
+		
+		width: 230px;
+		padding-bottom: 10px;
+		position:relative;
+		bottom: 330px;
+		margin: auto;
+		right:200px;
+		
+		
+	
+		}
+		.content{
+		padding-left:2px;
+		}
+		.content .text{
+		text-align: center;
+		}
+		
+		input[type=text], select{
+		width: 50%;
+		}
+		
+		#Quantityform2{
+		
+		width: 230px;
+		padding-bottom: 10px;
+		position:relative;
+		bottom: 335px;
+		margin: auto;
+		right:200px;
+		
+	
+		}
+		.content2{
+		padding-left:2px;
+		}
+		.content2 .text{
+		text-align: center;
+		}
+		
+		input[type=text], select{
+		width: 50%;
+		}
+		
+		#Quantityform3{
+		
+		width: 230px;
+		padding-bottom: 10px;
+		position:relative;
+		bottom: 340px;
+		margin: auto;
+		right:200px;
+		
+	
+		}
+		.content2{
+		padding-left:2px;
+		}
+		.content2 .text{
+		text-align: center;
+		}
+		
+		input[type=text], select{
+		width: 50%;
+		}
+		
+		#Quantityform4{
+		
+		width: 230px;
+		padding-bottom: 10px;
+		position:relative;
+		bottom: 345px;
+		margin: auto;
+		right:200px;
+		
+	
+		}
+		.content2{
+		padding-left:2px;
+		}
+		.content2 .text{
+		text-align: center;
+		}
+		
+		input[type=text], select{
+		width: 50%;
+		}
+		
+		#Quantitycustomers
+		{
+			position: relative;
+			bottom:15px;
+			margin: auto;
+		}
+	/* buttons below for membership*/
+		#Quantityform5{ 
+		width: 230px;
+		padding-bottom: 10px;
+		position:relative;
+		bottom: 335px;
+		margin: auto;
+		right:200px;
+		
+	
+		}
+		.content2{
+		padding-left:2px;
+		}
+		.content2 .text{
+		text-align: center;
+		}
+		
+		input[type=text], select{
+		width: 50%;
+		}
+		
+		#Quantityform6{
+		
+		width: 230px;
+		padding-bottom: 10px;
+		position:relative;
+		bottom: 335px;
+		margin: auto;
+		right:200px;
+		
+	
+		}
+		.content2{
+		padding-left:2px;
+		}
+		.content2 .text{
+		text-align: center;
+		}
+		
+		input[type=text], select{
+		width: 50%;
+		}
+		
+		#Quantityform7{
+		
+		width: 230px;
+		padding-bottom: 10px;
+		position:relative;
+		bottom: 335px;
+		margin: auto;
+		right:200px;
+		
+	
+		}
+		.content2{
+		padding-left:2px;
+		}
+		.content2 .text{
+		text-align: center;
+		}
+		
+		input[type=text], select{
+		width: 50%;
+		}
+		
+		#Quantitymembership
+		{
+			position:relative;
+			top: 20px;
+			margin:auto;
+		}
+		
+</style>
+
+				<script type="text/javascript">
+		function remove(){
+			if(document.getElementById("qauntity").value - 1 < 0)
+				return;
+			else
+				 document.getElementById("qauntity").value--;
+		}
+		</script>
+		
+						<script type="text/javascript">
+		function remove2(){
+			if(document.getElementById("qauntity2").value - 1 < 0)
+				return;
+			else
+				 document.getElementById("qauntity2").value--;
+		}
+		</script>
+		
+				</script>
+		
+						<script type="text/javascript">
+		function remove3(){
+			if(document.getElementById("qauntity3").value - 1 < 0)
+				return;
+			else
+				 document.getElementById("qauntity3").value--;
+		}
+		</script>
+		
+								<script type="text/javascript">
+		function remove4(){
+			if(document.getElementById("qauntity4").value - 1 < 0)
+				return;
+			else
+				 document.getElementById("qauntity4").value--;
+		}
+		</script>
+		
+										<script type="text/javascript">
+		function remove5(){
+			if(document.getElementById("qauntity5").value - 1 < 0)
+				return;
+			else
+				 document.getElementById("qauntity5").value--;
+		}
+		</script>
+		
+												<script type="text/javascript">
+		function remove6(){
+			if(document.getElementById("qauntity6").value - 1 < 0)
+				return;
+			else
+				 document.getElementById("qauntity6").value--;
+		}
+		</script>
+		
+													<script type="text/javascript">
+		function remove7(){
+			if(document.getElementById("qauntity7").value - 1 < 0)
+				return;
+			else
+				 document.getElementById("qauntity7").value--;
+		}
+		</script>
+</head>
+<ul>
+<li><a href="Archery.html">Home |</a></li>
+<li><a href = "Location.html">Location |</a></li>
+<li><a href ="Price.html" >Price |</a></li>
+<li><a href="about-us.html" >About Us </a></li>
+</ul>
+
+<body>
+<div id="title"> 
+<h1>Price</h1><!-- remove this title later-->
+</div>
+<img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/bow-9-119601.png" class="logo">
+
+<!--<div style="text-align: center;"><IMG SRC="https://assets.redletterdays.co.uk/images/img435/productlarge/RHEAR_1.jpg" ALT="image"></div>-->
+<table id="price">
+ <tr>
+    <th>Customers</th>
+    <th>Price</th>
+	</tr>
+	<tr>
+    <tr>
+	<td>Adults</td>
+    <td>£10</td>
+	</tr>
+	<tr><td>Students</td>
+	<td>£7</td>
+	</tr>
+	<tr><td>Children</td>
+	<td>£5</td>
+	</tr>
+	<tr><td>Seniors</td>
+	<td>£10</td>
+	</tr>
+</table>
+<table id="membership">
+<tr>
+    <th>Memberships</th>
+    <th>price</th>
+	</tr>
+	<tr>
+    <tr>
+	<td>1 month</td>
+    <td>£30</td>
+	</tr>
+	<tr><td>6 months</td>
+	<td>£150</td>
+	</tr>
+	<tr><td>1 year</td>
+	<td>£300</td>
+	</tr>
+</table>
+<p id="events">
+ Indoor Archery Competition (Entry fee £10) 
+This competition consists of 30 people. Winners will win a price. 
+</p>
+<p id="competition"> Bournemouth Archery Competition (Entry fee £10) 
+This competition consists of 30 people. Winners will win a price. 
+</p>
+
+<span id = "Quantitycustomers">
+	<div id = "Quantityform">
+		<div class = "content">
+		<form name="f1">
+			<input type='text' name='qauntity' id='qauntity' value ="0"/> 
+			
+			<input type='button' name='add' onclick='javascript: document.getElementById("qauntity").value++;' value='+'/>
+			<input type='button' name='remove' onclick='javascript: remove();' value='-'/>
+			
+		</form>
+		</div>
+	</div>
+	
+	<div id = "Quantityform2">
+		<div class = "content2">
+		<form name="f2">
+			<input type='text' name='qauntity2' id='qauntity2' value ="0"/> 
+			
+			<input type='button' name='add' onclick='javascript: document.getElementById("qauntity2").value++;' value='+'/>
+			<input type='button' name='remove' onclick='javascript: remove2();' value='-'/>
+			
+		</form>
+		</div>
+	</div>
+	
+	<div id = "Quantityform3">
+		<div class = "content3">
+		<form name="f3">
+			<input type='text' name='qauntity3' id='qauntity3' value ="0"/> 
+			
+			<input type='button' name='add' onclick='javascript: document.getElementById("qauntity3").value++;' value='+'/>
+			<input type='button' name='remove' onclick='javascript: remove3();' value='-'/>
+			
+		</form>
+		</div>
+	</div>
+	
+	<div id = "Quantityform4">
+		<div class = "content4">
+		<form name="f4">
+			<input type='text' name='qauntity4' id='qauntity4' value ="0"/> 
+			
+			<input type='button' name='add' onclick='javascript: document.getElementById("qauntity4").value++;' value='+'/>
+			<input type='button' name='remove' onclick='javascript: remove4();' value='-'/>
+			
+		</form>
+		</div>
+	</div>
+</span>	
+	
+<span id="Quantitymembership">	
+	<div id = "Quantityform5">
+		<div class = "content5">
+		<form name="f5">
+			<input type='text' name='qauntity5' id='qauntity5' value ="0"/> 
+			
+			<input type='button' name='add' onclick='javascript: document.getElementById("qauntity5").value++;' value='+'/>
+			<input type='button' name='remove' onclick='javascript: remove5();' value='-'/>
+			
+		</form>
+		</div>
+	</div>
+	
+	<div id = "Quantityform6">
+		<div class = "content6">
+		<form name="f6">
+			<input type='text' name='qauntity6' id='qauntity6' value ="0"/> 
+			
+			<input type='button' name='add' onclick='javascript: document.getElementById("qauntity6").value++;' value='+'/>
+			<input type='button' name='remove' onclick='javascript: remove6();' value='-'/>
+			
+		</form>
+		</div>
+	</div>
+	
+	<div id = "Quantityform7">
+		<div class = "content7">
+		<form name="f7">
+			<input type='text' name='qauntity7' id='qauntity7' value ="0"/> 
+			
+			<input type='button' name='add' onclick='javascript: document.getElementById("qauntity7").value++;' value='+'/>
+			<input type='button' name='remove' onclick='javascript: remove7();' value='-'/>
+			
+		</form>
+		</div>
+	</div>
+</span>	
+	
+</body>
+</html>
